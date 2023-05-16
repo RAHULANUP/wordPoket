@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Quicksand&display=swap');
+.input{
+    width:50%;
+    height:20%;
+    font-size:larger;
+    border-radius:5rem;
+    padding:2%;
+    margin-left:22%;
+    margin-bottom:3%;
+}
+div .search-button{
+    background-color: rgb(243, 243, 233);
+    border-radius:50%;
+    padding:0.5rem;
+    transition:0.5s ease-in-out;
+}
+div .search-button:hover{
+    background-color:rgb(255,255,255);
+    padding:0.6rem;
+}
+.search-image{
+    width:2rem;
+    height:2rem;
+}
+.card{
+    width:55%;
+    height:70vh;
+    background-color:rgb(254,254,255);
+    margin-left:22%;
+    margin-bottom:3%;
+    box-shadow:0 2px 5px 0 rgb(34,34,34);
+    border-radius:1rem;
+}
+.card h2{
+    font-family:"Quicksand",sans-serif;
+}
+.output{
+    font-family:"Poppins",sans-serif;
+    padding-left:1
+}
+@media (max-width:785px){
+    .card{
+        width:80%;
+        margin-left:10%;
+    }
+    .input{
+        width:70%;
+        margin-left:12%;
+    }
+}
+@media (max-width:760px){
+    .card{
+        width:90%;
+        margin-left:5%;
+    }
+    .input{
+        width:80%;
+        margin-left:7%;
+    }
+}
+@media (max-width:400px){
+    .input{
+        width:70%;
+    }
+}
